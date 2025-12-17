@@ -1,0 +1,11 @@
+
+
+import React from "react";
+
+function myTask2(){
+    return<>
+        <button>Send4</button>
+    </>
+}
+
+export default myTask2()
