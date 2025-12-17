@@ -1,11 +1,10 @@
-
-
-import React from "react";
-
-function myTask2(){
-    return<>
-        <button>Send</button>
-    </>
-}
-
-export default myTask2()
+const Button = ({ onClick }) => {
+    return (
+      <button onClick={onClick}>
+        לחץ
+      </button>
+    );
+  };
+  
+  export default Button;
+  
